@@ -1,0 +1,152 @@
+
+body {
+    background-color: #F5E4CB;
+    font-family: Arial, sans-serif;
+    border: solid 4px #443011;
+}
+
+header {
+    background-color: #7B5B3A;
+    padding: 20px;
+    text-align: center;
+}
+
+
+h1 {
+    color: #FFC871;
+    font-size: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #D8A571; /* background color for nav buttons */
+    border-radius: 10px; /* rounded edges */
+}
+
+nav a:hover {
+    color: #000;
+    background-color: #ffcd9b;
+}
+
+
+.title {
+    color: #FFC871;
+    font-size: 50px;
+}
+
+.main_content {
+ 
+    grid-template-columns: 3fr 1fr;
+}
+
+.main_content h2 {
+    color: #593221;
+    text-align: center;
+    font-size: 40px;
+}
+
+.intro {
+    background-color: #7B5B3A;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    border: 2px solid #443011;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.form-images-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.form-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+form {
+    background-color: #e1c7a0;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #443011;
+}
+
+
+.name:last-child {
+    margin-right: 0;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 5px 10px 0 0;
+}
+
+button {
+    background-color: #fcb977;
+    color: #000000;
+    border: rgb(124, 86, 54) solid 2px;
+    padding: 10px 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button[type="reset"] {
+    background-color: #ffa931;
+}
+
+button:hover {
+    background-color: #593221;
+    color: #ffffff;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+}
+
+.images img {
+    border: 2px solid #7B5B3A;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #7B5B3A;
+    color: white;
+    position: relative;
+    width: 100%;
+}

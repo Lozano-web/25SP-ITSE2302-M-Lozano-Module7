@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Custom T-Shirt Company</title>
+    <link rel="stylesheet" href="css/styles.css"/>
+   <script src="javascript/myShirts.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Your Custom T-Shirt Company</h1>
+        <nav id="nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#customize">Customize</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main_content">
+   
+        <section>
+            <h2>Create Your Perfect T-Shirt Today!</h2>
+            <div class="intro">
+                <p>
+                    At Your Custom T-Shirt Company, we believe that every shirt
+                    tells a story. Whether you're looking for a unique design
+                    for an event or just want to express your personal style,
+                    we have you covered!
+                </p>
+            </div>
+            <div class="form-images-wrapper">
+                <div class="form-container">
+                    <form id="tshirtForm">
+                        <div class="name-container">
+                            <div class="name">
+                                <label for="firstName">First Name:</label>
+                                <input type="text" id="firstName" name="firstName" required />
+                            </div>
+                            <div class="name">
+                                <label for="lastName">Last Name:</label>
+                                <input type="text" id="lastName" name="lastName" required />
+                            </div>
+                        </div>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required />
+
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" required />
+
+                        <label>Size:</label>
+                        <label><input type="radio" name="size" value="10" required /> Small: $10</label>
+                        <label><input type="radio" name="size" value="15" /> Medium: $15</label>
+                        <label><input type="radio" name="size" value="20" /> Large: $20</label>
+                        <label><input type="radio" name="size" value="25" /> X-Large: $25</label>
+
+                        <label for="color">Select Shirt Color:</label>
+                        <select id="color" name="color" required>
+                            <option value="White">White</option>
+                            <option value="Green">Green</option>
+                            <option value="Black">Black</option>
+                            <option value="Gray">Gray</option>
+                            <option value="Blue">Blue</option>
+                            <option value="Purple">Purple</option>
+                            <option value="Red">Red</option>
+                            <option value="Pink">Pink</option>
+                        </select>
+
+                        <label>Add-ons:</label>
+                        <label><input type="checkbox" name="addons" value="5" /> Print Name on Shirt: $5</label>
+                        <label><input type="checkbox" name="addons" value="2" /> Long Sleeves: $2</label>
+                        <label><input type="checkbox" name="addons" value="20" /> Personalized Artwork: $20</label>
+                        <label><input type="checkbox" name="addons" value="10" /> Mascots: $10</label>
+                        <label><input type="checkbox" name="addons" value="15" /> Other: $15</label>
+
+                        <label for="description">If Mascot or Other, Please Describe:</label>
+                        <textarea id="description" name="description" rows="4"></textarea>
+
+                        <div class="form-buttons">
+                            <button type="submit">Place Order</button>
+                            <button type="reset">Reset</button>
+                        </div>
+                    </form>
+                </div>
+               
+                <aside class="images">
+                    <figure class="post">
+                        <img src="images/BlackandWhite.jpg" alt="Black Shirt with a Skeleton peace sign" width="640" height="427" />
+                        <figcaption>Design 1</figcaption>
+                    </figure>
+                    <figure class="post">
+                        <img src="images/sunnydays.jpg" alt="A white shirt withe a sun on the ocean ounline "width="640" height="427" />
+                        <figcaption>Design 2</figcaption>
+                    </figure>
+                </aside>
+        
+            </div>
+        </section>
+        <div id="orderSummary"></div>
+</main>
+
+
+    <footer id="footer">
+        <p>&copy; 2023 Your Custom T-Shirt Company</p>
+    </footer>
+</body>
+</html>
