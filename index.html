@@ -8,7 +8,6 @@
    <script src="javascript/myShirts.js"></script>
 </head>
 <body>
-    <!-- completly forgot to add comments to the main body! -->
     <header>
         <h1>Your Custom T-Shirt Company</h1>
         <nav id="nav">
@@ -23,8 +22,6 @@
     <main class="main_content">
    
         <section>
-
-                <!--intro to webpage of tshirts  -->
             <h2>Create Your Perfect T-Shirt Today!</h2>
             <div class="intro">
                 <p>
@@ -34,39 +31,39 @@
                     we have you covered!
                 </p>
             </div>
-                <!-- start of the form -->
             <div class="form-images-wrapper">
                 <div class="form-container">
                     <form id="tshirtForm">
                         <div class="name-container">
                             <div class="name">
                                 <label for="firstName">First Name:</label>
-                                <input type="text" id="firstName" name="firstName" required />
+                                <input type="text" id="firstName" name="firstName"  />
                             </div>
                             <div class="name">
                                 <label for="lastName">Last Name:</label>
-                                <input type="text" id="lastName" name="lastName" required />
+                                <input type="text" id="lastName" name="lastName"  />
                             </div>
                         </div>
                         
                         <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required />
+                        <input type="email" id="email" name="email"  />
 
                         <label for="phone">Phone Number:</label>
-                        <input type="tel" id="phone" name="phone" required />
+                        <input type="tel" id="phone" name="phone"  />
 
                         <label>Size:</label>
-                        <label><input type="radio" name="size" value="10" required /> Small: $10</label>
+                        <label><input type="radio" name="size" value="10"  /> Small: $10</label>
                         <label><input type="radio" name="size" value="15" /> Medium: $15</label>
                         <label><input type="radio" name="size" value="20" /> Large: $20</label>
                         <label><input type="radio" name="size" value="25" /> X-Large: $25</label>
-    <!--types of colors you can choose from -->
+
                         <label for="color">Select Shirt Color:</label>
-                        <select id="color" name="color" required>
-                            <option value="White">White</option>
-                            <option value="Green">Green</option>
+                        <select id="color" name="color" >
+                            <option value="">Select a color</option> <!-- Placeholder  -->
+                            <option value="Green">White</option>
                             <option value="Black">Black</option>
                             <option value="Gray">Gray</option>
+                            <option value="Green">Green</option>
                             <option value="Blue">Blue</option>
                             <option value="Purple">Purple</option>
                             <option value="Red">Red</option>
@@ -96,7 +93,7 @@
                         <figcaption>Design 1</figcaption>
                     </figure>
                     <figure class="post">
-                        <img src="images/sunnydays.jpg" alt="A white shirt withe a sun on the ocean ounline " width="640" height="427" />
+                        <img src="images/sunnydays.jpg" alt="A white shirt withe a sun on the ocean ounline" width="640" height="427" />
                         <figcaption>Design 2</figcaption>
                     </figure>
                 </aside>
@@ -106,9 +103,9 @@
         <div id="orderSummary"></div>
 </main>
 
-    <!--  copyright -->
+
     <footer id="footer">
-        <p>&copy; 2025 Your Custom T-Shirt Company</p>
+        <p>&copy; 2023 Your Custom T-Shirt Company</p>
     </footer>
 </body>
 </html>
